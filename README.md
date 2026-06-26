@@ -16,8 +16,11 @@ Responsive and user-friendly interface
 🛠️ Technologies Used
 
 HTML5
+
 CSS3
+
 JavaScript (ES6)
+
 Browser Local Storage
 
 📂 Project Structure
