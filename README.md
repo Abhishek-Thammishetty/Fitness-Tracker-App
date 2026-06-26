@@ -23,9 +23,13 @@ Browser Local Storage
 📂 Project Structure
 
 Fitness-Tracker-App/
+
 │── index.html
+
 │── style.css
+
 │── script.js
+
 │── README.md
 
 🚀 How to Run the Project
