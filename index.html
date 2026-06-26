@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🏃 Fitness Tracker App</h1>
+
+    <div class="form">
+        <input type="text" id="exercise" placeholder="Exercise Type">
+
+        <input type="number" id="duration" placeholder="Workout Time (Minutes)">
+
+        <input type="number" id="steps" placeholder="Steps">
+
+        <input type="number" id="calories" placeholder="Calories Burned">
+
+        <button onclick="addData()">Add Record</button>
+    </div>
+
+    <h2>Today's Progress</h2>
+
+    <div class="progress-box">
+        <label>Steps Goal (10000)</label>
+        <progress id="stepProgress" value="0" max="10000"></progress>
+        <span id="stepValue">0</span>
+    </div>
+
+    <div class="progress-box">
+        <label>Calories Goal (500)</label>
+        <progress id="calorieProgress" value="0" max="500"></progress>
+        <span id="calorieValue">0</span>
+    </div>
+
+    <h2>Fitness Records</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Exercise</th>
+                <th>Time</th>
+                <th>Steps</th>
+                <th>Calories</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+
+        <tbody id="tableBody">
+
+        </tbody>
+    </table>
+
+    <div class="summary">
+        <h2>Weekly Summary</h2>
+
+        <p>Total Steps :
+            <span id="totalSteps">0</span>
+        </p>
+
+        <p>Total Calories :
+            <span id="totalCalories">0</span>
+        </p>
+
+        <p>Total Workout Time :
+            <span id="totalDuration">0</span> Minutes
+        </p>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
